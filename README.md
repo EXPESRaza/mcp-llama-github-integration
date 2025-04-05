@@ -32,7 +32,7 @@ cd mcp-llama-integration
 ### Install Dependencies
 
 ```bash
-pip install fastapi uvicorn requests pydantic
+pip install -r requirements.txt
 ```
 
 ## File Structure
