@@ -54,7 +54,10 @@ mcp-llama-integration/
 3. Verify the model is running:
    ```bash
    curl http://localhost:11434/api/tags
+   http://localhost:11434
+   http://localhost:11434/api/tags
    ```
+   ![image](https://github.com/user-attachments/assets/ce4d8ec5-16e6-4233-9b1e-e08420c04a87)
 
 ## Running the MCP Server
 
@@ -67,6 +70,9 @@ mcp-llama-integration/
    ```bash
    curl http://localhost:8000/health
    ```
+   ![image](https://github.com/user-attachments/assets/b3b2aa31-cbf6-4a86-b8cd-9cff41f941de)
+
+   ![image](https://github.com/user-attachments/assets/beabe62c-e83c-4b8c-b306-ad52dccf7682)
 
 ## Using the Client Application
 
@@ -79,8 +85,10 @@ mcp-llama-integration/
 4. To list files from a GitHub repository, use a query like:
    ```
    List files from https://github.com/username/repository
+   List files from https://github.com/EXPESRaza/mcp-llama-github-integration
    ```
 5. Type 'exit' to quit the application
+   ![image](https://github.com/user-attachments/assets/b10665be-68d7-4eb3-9b36-7a385db3d5b7)
 
 ## API Documentation
 
